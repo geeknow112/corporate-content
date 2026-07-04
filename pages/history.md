@@ -1,4 +1,4 @@
-<div class="biz-hero-box" style="background-image: linear-gradient(rgba(25, 68, 142, 0.85), rgba(42, 92, 170, 0.9)), url('https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600&q=80'); background-size: cover; background-position: center;">
+<div class="biz-hero-box">
   <h1>沿革</h1>
   <p>技術で事業を前に進める。その想いで歩んできた軌跡。</p>
 </div>
@@ -78,21 +78,38 @@
 <style>
 .biz-hero-box {
   text-align: center;
-  padding: 3em 1em;
+  padding: 3em 1.5em;
   color: #fff;
-  border-radius: 8px;
-  margin-bottom: 2em;
+  border-radius: 0;
+  margin: -20px -20px 2em -20px;
+  background: linear-gradient(135deg, #0a1628 0%, #19448e 50%, #2a5caa 100%);
+  position: relative;
+  overflow: hidden;
+}
+.biz-hero-box::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: 
+    radial-gradient(circle at 20% 80%, rgba(255,255,255,0.1) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(255,255,255,0.08) 0%, transparent 40%),
+    radial-gradient(circle at 40% 40%, rgba(255,255,255,0.05) 0%, transparent 30%);
+  pointer-events: none;
 }
 .biz-hero-box h1 {
   font-size: 2em;
   margin: 0 0 0.5em 0;
   color: #fff;
-  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  position: relative;
+  letter-spacing: 0.05em;
 }
 .biz-hero-box p {
   margin: 0;
   opacity: 0.95;
-  text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+  position: relative;
 }
 .biz-timeline {
   position: relative;
@@ -106,7 +123,7 @@
   top: 0;
   bottom: 0;
   width: 3px;
-  background: #19448e;
+  background: linear-gradient(180deg, #19448e 0%, #2a5caa 100%);
   border-radius: 2px;
 }
 .biz-timeline-item {
@@ -128,7 +145,7 @@
 }
 .biz-timeline-year {
   display: inline-block;
-  background: #19448e;
+  background: linear-gradient(135deg, #19448e 0%, #2a5caa 100%);
   color: #fff;
   padding: 0.2em 0.8em;
   border-radius: 4px;
@@ -163,9 +180,10 @@
 .biz-cta-box {
   text-align: center;
   padding: 2em;
-  background: #f8f9fa;
+  background: linear-gradient(135deg, #f0f4f8 0%, #e8eef5 100%);
   border-radius: 8px;
   margin-top: 2em;
+  border: 1px solid #d0dae8;
 }
 .biz-cta-box h2 {
   margin: 0 0 0.5em 0;
