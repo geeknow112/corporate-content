@@ -1,4 +1,4 @@
-<div class="biz-hero-box" style="background-image: linear-gradient(rgba(25, 68, 142, 0.85), rgba(42, 92, 170, 0.9)), url('https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600&q=80'); background-size: cover; background-position: center;">
+<div class="biz-hero-box">
   <h1>会社概要</h1>
   <p>Company Overview</p>
 </div>
@@ -50,21 +50,38 @@
 <style>
 .biz-hero-box {
   text-align: center;
-  padding: 3em 1em;
+  padding: 3em 1.5em;
   color: #fff;
-  border-radius: 8px;
-  margin-bottom: 2em;
+  border-radius: 0;
+  margin: -20px -20px 2em -20px;
+  background: linear-gradient(135deg, #0a1628 0%, #19448e 50%, #2a5caa 100%);
+  position: relative;
+  overflow: hidden;
+}
+.biz-hero-box::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: 
+    radial-gradient(circle at 20% 80%, rgba(255,255,255,0.1) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(255,255,255,0.08) 0%, transparent 40%),
+    radial-gradient(circle at 40% 40%, rgba(255,255,255,0.05) 0%, transparent 30%);
+  pointer-events: none;
 }
 .biz-hero-box h1 {
   font-size: 2em;
   margin: 0 0 0.5em 0;
   color: #fff;
-  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  position: relative;
+  letter-spacing: 0.05em;
 }
 .biz-hero-box p {
   margin: 0;
   opacity: 0.95;
-  text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+  position: relative;
 }
 .biz-profile-list {
   border-top: 2px solid #19448e;
@@ -74,7 +91,7 @@
 .biz-profile-row {
   display: flex;
   flex-wrap: wrap;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #e0e0e0;
   padding: 1em 0;
 }
 .biz-profile-row dt {
@@ -99,11 +116,12 @@
 }
 .biz-inline-list li {
   display: inline-block;
-  background: #f0f4f8;
+  background: linear-gradient(135deg, #f0f4f8 0%, #e8eef5 100%);
   padding: 0.2em 0.6em;
   margin: 0.2em 0.3em 0.2em 0;
   border-radius: 4px;
   font-size: 0.9em;
+  border: 1px solid #d0dae8;
 }
 .biz-cta-box {
   text-align: center;
@@ -114,8 +132,9 @@
   padding: 0.6em 1.5em;
   color: #19448e;
   text-decoration: none;
-  border: 1px solid #19448e;
+  border: 2px solid #19448e;
   border-radius: 4px;
+  transition: all 0.3s ease;
 }
 .biz-link-btn:hover {
   background: #19448e;
