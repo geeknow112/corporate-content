@@ -35,7 +35,7 @@
 </div>
 
 <div class="biz-case-card">
-  <div class="biz-case-image" style="background-image: url('https://images.unsplash.com/photo-1451187580459-43490279f0fa?w=400&q=80');"></div>
+  <div class="biz-case-image" style="background-image: url('https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&q=80');"></div>
   <div class="biz-case-content">
     <div class="biz-case-header">
       <span class="biz-case-tag">AWS構築支援</span>
@@ -137,10 +137,10 @@
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 .biz-case-image {
-  flex: 0 0 200px;
+  flex: 0 0 280px;
   background-size: cover;
   background-position: center;
-  min-height: 250px;
+  min-height: 280px;
 }
 .biz-case-content {
   flex: 1;
