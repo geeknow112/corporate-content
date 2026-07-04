@@ -1,4 +1,4 @@
-<div class="biz-hero-box">
+<div class="biz-hero-box" style="background-image: linear-gradient(rgba(25, 68, 142, 0.85), rgba(42, 92, 170, 0.9)), url('https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600&q=80'); background-size: cover; background-position: center;">
   <h1>沿革</h1>
   <p>技術で事業を前に進める。その想いで歩んできた軌跡。</p>
 </div>
@@ -78,20 +78,21 @@
 <style>
 .biz-hero-box {
   text-align: center;
-  padding: 2em 1em;
-  background: linear-gradient(135deg, #19448e 0%, #2a5caa 100%);
+  padding: 3em 1em;
   color: #fff;
   border-radius: 8px;
   margin-bottom: 2em;
 }
 .biz-hero-box h1 {
-  font-size: 1.8em;
+  font-size: 2em;
   margin: 0 0 0.5em 0;
   color: #fff;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
 }
 .biz-hero-box p {
   margin: 0;
   opacity: 0.95;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.3);
 }
 .biz-timeline {
   position: relative;
