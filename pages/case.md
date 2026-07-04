@@ -6,7 +6,7 @@
 <div class="biz-case-list">
 
 <div class="biz-case-card">
-  <div class="biz-case-image" style="background-image: url('https://images.unsplash.com/photo-1563986768609-322da13575f3?w=400&q=80');"></div>
+  <div class="biz-case-image" style="background-image: url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&q=80');"></div>
   <div class="biz-case-content">
     <div class="biz-case-header">
       <span class="biz-case-tag">セキュリティ診断</span>
@@ -35,7 +35,7 @@
 </div>
 
 <div class="biz-case-card">
-  <div class="biz-case-image" style="background-image: url('https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&q=80');"></div>
+  <div class="biz-case-image" style="background-image: url('https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=400&q=80');"></div>
   <div class="biz-case-content">
     <div class="biz-case-header">
       <span class="biz-case-tag">AWS構築支援</span>
@@ -65,7 +65,7 @@
 </div>
 
 <div class="biz-case-card">
-  <div class="biz-case-image" style="background-image: url('https://images.unsplash.com/photo-1553877522-43269d4ea984?w=400&q=80');"></div>
+  <div class="biz-case-image" style="background-image: url('https://images.unsplash.com/photo-1552581234-26160f608093?w=400&q=80');"></div>
   <div class="biz-case-content">
     <div class="biz-case-header">
       <span class="biz-case-tag">技術顧問</span>
