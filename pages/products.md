@@ -25,7 +25,7 @@
 .biz-product-section {
   margin: 1.5em 0;
 }
-.biz-section-title {
+.article h2.biz-section-title {
   display: inline-block;
   background-color: var(--wp--preset--color--key-color, #19448e);
   color: #fff;
