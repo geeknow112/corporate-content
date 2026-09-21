@@ -61,7 +61,7 @@
 
 /* お問い合わせフォーム */
 .biz-form-wrap {
-  max-width: 760px;
+  max-width: 760px !important;
   margin: 0 auto;
 }
 .biz-form-wrap iframe {
@@ -109,7 +109,7 @@
 
 <h2 class="biz-section-title">お問い合わせフォーム</h2>
 
-<div class="biz-form-wrap">
+<div class="biz-form-wrap" style="max-width:760px;margin:0 auto;">
   <iframe
     src="https://docs.google.com/forms/d/e/1FAIpQLScfnwZEgjfz2_wPc-aJULZB_0VModeKx8lU2xZh1nFuQRjGzg/viewform?embedded=true"
     frameborder="0" marginheight="0" marginwidth="0"
