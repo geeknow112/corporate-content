@@ -1,3 +1,81 @@
+<style>
+.biz-hero-box {
+  text-align: center;
+  padding: 3em 1.5em;
+  color: #fff;
+  border-radius: 8px;
+  margin-bottom: 2em;
+}
+.biz-hero-box h1 {
+  font-size: 2em;
+  margin: 0 0 0.5em 0;
+  color: #fff;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+.biz-hero-box p {
+  margin: 0;
+  opacity: 0.95;
+  line-height: 1.8;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+}
+.biz-service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.2em;
+  margin: 1.5em 0;
+}
+.biz-service-grid .caption-box {
+  margin: 0;
+}
+.biz-service-grid .caption-box-label {
+  font-weight: bold;
+  line-height: 1.5;
+  min-height: 3em;
+  display: flex;
+  align-items: center;
+}
+.biz-service-grid .caption-box-content {
+  line-height: 1.8;
+}
+.biz-cta-box {
+  text-align: center;
+  padding: 2em;
+  background: linear-gradient(135deg, #f0f4f8 0%, #e8eef5 100%);
+  border-radius: 8px;
+  margin-top: 2em;
+  border: 1px solid #d0dae8;
+}
+.biz-cta-box h2 {
+  margin: 0 0 0.5em 0;
+  color: #19448e;
+}
+.biz-cta-btn {
+  display: inline-block;
+  padding: 0.8em 2em;
+  background: #19448e;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+/* お問い合わせフォーム */
+.biz-form-wrap {
+  max-width: 760px;
+  margin: 0 auto;
+}
+.biz-form-wrap iframe {
+  display: block;
+  border: 0;
+  width: 100%;
+  min-height: 1250px;
+}
+.biz-form-note {
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 1em;
+}
+</style>
 <div class="biz-hero-box" style="background-image: linear-gradient(rgba(25, 68, 142, 0.85), rgba(42, 92, 170, 0.9)), url('https://images.unsplash.com/photo-1423666639041-f56000c27a9a?w=1600&q=80'); background-size: cover; background-position: center;">
   <h1>お問い合わせ</h1>
   <p>業務の自動化、クラウド構築、社内システムのご相談を承ります。<br>「何を相談していいかわからない」段階でも構いません。</p>
@@ -31,14 +109,14 @@
 
 <h2 class="biz-section-title">お問い合わせフォーム</h2>
 
-<div style="max-width:760px;margin:0 auto;">
+<div class="biz-form-wrap">
   <iframe
     src="https://docs.google.com/forms/d/e/1FAIpQLScfnwZEgjfz2_wPc-aJULZB_0VModeKx8lU2xZh1nFuQRjGzg/viewform?embedded=true"
-    width="100%" height="1400" frameborder="0" marginheight="0" marginwidth="0"
-    title="お問い合わせフォーム" loading="lazy" style="display:block;border:0;">
+    frameborder="0" marginheight="0" marginwidth="0"
+    title="お問い合わせフォーム" loading="lazy">
     読み込んでいます…
   </iframe>
-  <p style="font-size:14px;color:#666;margin-top:16px;">
+  <p class="biz-form-note">
     フォームが表示されない場合は、<a href="https://docs.google.com/forms/d/e/1FAIpQLScfnwZEgjfz2_wPc-aJULZB_0VModeKx8lU2xZh1nFuQRjGzg/viewform" target="_blank" rel="noopener">こちらのページ</a>からご入力ください。
   </p>
 </div>
