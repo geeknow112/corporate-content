@@ -76,12 +76,8 @@
   margin-top: 1em;
 }
 </style>
-<div class="biz-hero-box" style="background-image: linear-gradient(rgba(25, 68, 142, 0.85), rgba(42, 92, 170, 0.9)), url('https://images.unsplash.com/photo-1423666639041-f56000c27a9a?w=1600&q=80'); background-size: cover; background-position: center;">
-  <h1>お問い合わせ</h1>
-  <p>業務の自動化、クラウド構築、社内システムのご相談を承ります。<br>「何を相談していいかわからない」段階でも構いません。</p>
-</div>
 
-<h2 class="biz-section-title">ご相談の前に</h2>
+<p>業務の自動化、クラウド構築、社内システムのご相談を承ります。<br>「何を相談していいかわからない」段階でも構いません。</p>
 
 <div class="biz-service-grid">
   <div class="caption-box cb-key-color">
@@ -106,8 +102,6 @@
     </div>
   </div>
 </div>
-
-<h2 class="biz-section-title">お問い合わせフォーム</h2>
 
 <div class="biz-form-wrap" style="max-width:760px;margin:0 auto;">
   <iframe
